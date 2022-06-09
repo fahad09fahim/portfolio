@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <div class="navbar bg-black-400 text-white px-0 py-0  lg:px-32 lg:py-16  ">
+      <div class="navbar bg-black-400 text-white ">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -27,6 +27,9 @@ const Navbar = () => {
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-black-400 rounded-box w-52"
             >
               <li>
+                <a>Home</a>
+              </li>
+              <li>
                 <a
                   rel="noreferrer"
                   target="_blank"
@@ -47,6 +50,9 @@ const Navbar = () => {
         </div>
         <div class="navbar-end hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
+            <li>
+              <a>Home</a>
+            </li>
             <li>
               <a
                 rel="noreferrer"

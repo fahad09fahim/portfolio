@@ -5,12 +5,12 @@ import Navbar from "./Page/Shared/Navbar";
 
 function App() {
   return (
-    <>
+    <div className="px-0 py-0  lg:px-32 lg:py-16  ">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
       </Routes>
-    </>
+    </div>
   );
 }
 
