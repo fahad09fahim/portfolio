@@ -4,9 +4,9 @@ const Contact = () => {
   return (
     <div className="my-5">
       <h1 className="text-3xl text-accent">Contact With Me:</h1>
-      <div className=" mx-32 lg:mx-80 ">
+      <div className=" mx-auto md:mx-60 lg:mx-80 ">
         <form
-          action="https://formsubmit.co/1aee19265398c50035dfb4fa5c0c1247"
+          action="https://formsubmit.co/anik.fahim07@gmail.com"
           method="POST"
         >
           <label class="label">

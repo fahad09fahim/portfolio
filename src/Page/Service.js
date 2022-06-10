@@ -5,12 +5,12 @@ import skill3 from "../Image/skill3.png";
 import skill4 from "../Image/skill4.png";
 const Service = () => {
   return (
-    <div className="text-white mb-5 mt-5">
-      <h1 className="text-5xl text-accent mb-9 ">Skills:</h1>
+    <div className="text-white mb-5 mt-5 ">
+      <h1 className="text-4xl text-accent mb-9 ">Skills:</h1>
       <div className="flex  flex-col lg:flex-row gap-5 items-center">
-        <div class="card card-compact w-96 bg-primary shadow-xl">
+        <div class="card card-compact w-80 bg-primary shadow-xl">
           <figure>
-            <img src={skill1} alt="Shoes" />
+            <img src={skill1} alt="Skill1" />
           </figure>
           <div class="card-body">
             <h2 class="card-title  text-secondary">Front-End</h2>
@@ -25,11 +25,11 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div class="card card-compact w-96 bg-primary shadow-xl">
+        <div class="card card-compact w-80 bg-primary shadow-xl">
           <figure>
-            <img src={skill2} alt="Shoes" />
+            <img src={skill2} alt="skills" />
           </figure>
-          <div class="card-body">
+          <div class="card-body my-4">
             <h2 class="card-title text-secondary">React Js</h2>
             <p className="text-xl">
               I can develop single page application with React Js and set React
@@ -43,9 +43,9 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div class="card card-compact w-96 bg-primary shadow-xl">
+        <div class="card card-compact w-80 bg-primary shadow-xl">
           <figure>
-            <img src={skill3} alt="Shoes" />
+            <img src={skill3} alt="skills" />
           </figure>
           <div class="card-body">
             <h2 class="card-title text-secondary">Firebase Authentication</h2>
@@ -61,9 +61,9 @@ const Service = () => {
             </div>
           </div>
         </div>
-        <div class="card card-compact w-96 bg-primary shadow-xl">
+        <div class="card card-compact w-80 bg-primary shadow-xl">
           <figure>
-            <img src={skill4} alt="Shoes" />
+            <img src={skill4} alt="skills" />
           </figure>
           <div class="card-body">
             <h2 class="card-title text-secondary">MERN Stack</h2>

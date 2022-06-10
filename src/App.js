@@ -4,6 +4,9 @@ import Home from "./Page/Home";
 import Projects from "./Page/Projects";
 import Service from "./Page/Service";
 import Navbar from "./Page/Shared/Navbar";
+import Goport from "./Page/Shared/SkillDetails/Goport";
+import Mytools from "./Page/Shared/SkillDetails/Mytools";
+import SportsFlash from "./Page/Shared/SkillDetails/SportsFlash";
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/skill" element={<Service />}></Route>
         <Route path="/project" element={<Projects />}></Route>
+        <Route path="/mytools" element={<Mytools />}></Route>
+        <Route path="/goport" element={<Goport />}></Route>
+        <Route path="/sportsFlash" element={<SportsFlash />}></Route>
       </Routes>
     </div>
   );
