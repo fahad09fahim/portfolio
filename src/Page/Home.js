@@ -1,5 +1,6 @@
 import React from "react";
 import avatar from "../Image/avatar.png";
+import Contact from "./Contact";
 import Projects from "./Projects";
 import Service from "./Service";
 import Footer from "./Shared/Footer";
@@ -32,6 +33,8 @@ const Home = () => {
       <Service />
       <hr />
       <Projects />
+      <hr />
+      <Contact />
       <Footer />
     </div>
   );

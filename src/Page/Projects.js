@@ -6,7 +6,7 @@ import web3 from "../Image/web3.png";
 
 const Projects = () => {
   return (
-    <div className="mt-5 text-white">
+    <div className="mt-5 text-white mb-5">
       <p className="text-4xl text-accent">Projects:</p>
       <div className="flex flex-col lg:flex-row gap-5 items-center mt-5">
         <div class="card card-compact w-80 bg-primary shadow-xl">
