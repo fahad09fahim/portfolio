@@ -1,5 +1,6 @@
 import React from "react";
 import avatar from "../Image/avatar.png";
+import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
 import Service from "./Service";
@@ -31,6 +32,8 @@ const Home = () => {
       </div>
       <hr />
       <Service />
+      <hr />
+      <About />
       <hr />
       <Projects />
       <hr />

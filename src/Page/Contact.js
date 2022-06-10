@@ -6,7 +6,7 @@ const Contact = () => {
       <h1 className="text-3xl text-accent">Contact With Me:</h1>
       <div className=" mx-auto md:mx-60 lg:mx-80 ">
         <form
-          action="https://formsubmit.co/anik.fahim07@gmail.com"
+          action="https://formsubmit.co/anik.fahim09@gmail.com"
           method="POST"
         >
           <label class="label">

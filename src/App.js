@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Blogs from "./Page/Blogs";
 import Home from "./Page/Home";
 import Projects from "./Page/Projects";
 import Service from "./Page/Service";
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/skill" element={<Service />}></Route>
         <Route path="/project" element={<Projects />}></Route>
+        <Route path="/blogs" element={<Blogs />}></Route>
         <Route path="/mytools" element={<Mytools />}></Route>
         <Route path="/goport" element={<Goport />}></Route>
         <Route path="/sportsFlash" element={<SportsFlash />}></Route>
