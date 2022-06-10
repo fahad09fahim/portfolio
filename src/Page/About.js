@@ -11,7 +11,7 @@ const About = () => {
         />
       </div>
       <div>
-        <h1 className="font-bold">About Me:</h1>
+        <h1 className="font-bold text-2xl">About Me:</h1>
         <p className="text-center text-xl">
           Hi, I am Fahim, Front-end Developer. I have experience on Html5, Css3,
           Javascript.I Have done my project with React,Bootstrap,Tailwind,Daisy
