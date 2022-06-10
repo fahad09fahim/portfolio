@@ -5,7 +5,7 @@ import skill3 from "../Image/skill3.png";
 import skill4 from "../Image/skill4.png";
 const Service = () => {
   return (
-    <div className="text-white">
+    <div className="text-white mb-5 mt-5">
       <h1 className="text-5xl text-accent mb-9 ">Skills:</h1>
       <div className="flex  flex-col lg:flex-row gap-5 items-center">
         <div class="card card-compact w-96 bg-primary shadow-xl">
@@ -13,7 +13,7 @@ const Service = () => {
             <img src={skill1} alt="Shoes" />
           </figure>
           <div class="card-body">
-            <h2 class="card-title text-center">Front-End</h2>
+            <h2 class="card-title  text-secondary">Front-End</h2>
             <p className="text-xl">
               I can develope responsive website with Html5, CSS3 and Basic
               Javascript.
@@ -30,7 +30,7 @@ const Service = () => {
             <img src={skill2} alt="Shoes" />
           </figure>
           <div class="card-body">
-            <h2 class="card-title">React Js</h2>
+            <h2 class="card-title text-secondary">React Js</h2>
             <p className="text-xl">
               I can develop single page application with React Js and set React
               Router.
@@ -48,7 +48,7 @@ const Service = () => {
             <img src={skill3} alt="Shoes" />
           </figure>
           <div class="card-body">
-            <h2 class="card-title">Firebase Authentication</h2>
+            <h2 class="card-title text-secondary">Firebase Authentication</h2>
             <p className="text-xl">
               I can implement firebase authentication system with Native
               providers and social providers.
@@ -66,7 +66,7 @@ const Service = () => {
             <img src={skill4} alt="Shoes" />
           </figure>
           <div class="card-body">
-            <h2 class="card-title">MERN Stack</h2>
+            <h2 class="card-title text-secondary">MERN Stack</h2>
             <p className="text-xl">
               I can develop fullstack web application with MongoDb,Express
               Js,React Js,Node Js .{" "}
